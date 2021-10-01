@@ -11,21 +11,12 @@ body {
     height: 100vh;
 }
 
+/* HEADER */
+
 header {
     background-color: #010101;
     text-align: right;
     padding: 20px;
-}
-
-footer {
-    height: 50px;
-    background-color: aqua;
-}
-
-main {
-    display: flex;
-    flex-grow: 1;
-    background-color: blue;
 }
 
 .header-bottom a {
@@ -36,6 +27,16 @@ main {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 10px;
+}
+
+/* MAIN SECTION */
+
+main {
+    display: flex;
+    flex-grow: 1;
+    overflow: auto;
+    background-color: #010101;
+    padding: 20px;
 }
 
 .users {
@@ -75,6 +76,68 @@ ul {
     bottom: 0;
     background-color: rgba(0,0,0,.5);
     padding: 4px;
+}
+
+ /* FOOTER */
+
+ footer {
+    background-color: #222325;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left .bottom {
+    display: inline-block;
+    padding: 5px;
+}
+
+.center .bottom {
+    display: inline-block;
+    padding: 5px;
+}
+
+.right .bottom {
+    display: inline-block;
+    padding: 5px;
+}
+
+.bottom {
+    margin: 5px;
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+.bottom i {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding: 4px;
+}
+
+.bottom .inline {
+    display: inline-block;
+}
+
+.bottom span {
+    font-size: 15px;
+    text-align: center;
+}
+
+.green {
+    color: green;
+}
+
+.right {
+    background-color: #464749;
+    display: flex;
+    align-items: center;
+}
+
+.right .end{
+    text-decoration: none;
+    color: indianred;
+    padding: 0% 15px;
 }
 
 
