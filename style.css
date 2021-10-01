@@ -42,7 +42,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .users .user {
@@ -51,10 +50,11 @@ main {
 
 ul {
     list-style: none;
+    padding: 0% 40px 60px;
 }
 
 .users li {
-    padding: 15px;
+    padding: 5px;
 }
 
 .users li .user {
